@@ -1,0 +1,46 @@
+#alphabet
+{
+	display :flex ;
+	flex-direction: column ;
+	border : medium black solid;
+} 
+.partie1
+{
+	display :flex ;
+	flex-direction: row ;
+	justify-content: center ;
+}
+.partie2
+{
+	display :flex ;
+	flex-direction: row ;
+	justify-content: center;
+	margin: 0px 30px;
+}
+.lettre
+{
+	display : block ;
+	text-align: center ;
+	font-weight: bold ;
+	height: 1.5em ;
+	width: 13% ;
+	max-width: 3em ;
+	min-width: 1em ;
+	font-size: 32px ;
+	border : 1px black solid ;
+	padding: 1px ;
+	margin : 10px ;
+
+}
+#head
+{
+	background : url('../images/alphabet.jpg') no-repeat center  ;
+	width: 100% ;
+	height: 140px ;
+}
+/*body
+{
+	display :flex ;
+	flex-direction: column ;
+	overflow: scroll;
+}*/
